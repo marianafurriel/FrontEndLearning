@@ -68,8 +68,9 @@ button{
 .btn-primary{
     background-color: var(--bright-blue);
     color: #fff;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .btn-primary:hover,
@@ -80,6 +81,8 @@ button{
 .btn-secondary{
     background-color: transparent;
     color: var(--desaturated-blue);
+    font-size: 14px;
+    font-weight: 900;
 }
 
 .btn-secondary:hove{
@@ -87,16 +90,19 @@ button{
 }
 
 .container{
+    height: 565px;
     background-color: #fff;
-    margin:20px;
+    margin: 20px;
     padding-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 25px;
     box-shadow: 3px 3px 3px hsl(228, 45%, 44%, 0.15);
 }
 
 .container h1{
     color: var(--dark-blue);
-    margin: 10px 0;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 25px;
 }
 
 .container p.desc{
@@ -106,7 +112,7 @@ button{
 /*.container img.hero*/
 .hero{
     width: 100%;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 25px 25px 0px 0px;
 }
 
 /*.container .pricing*/
@@ -129,6 +135,15 @@ button{
 
 .pricing article img{
     margin: 10px;
+    margin-right: 15px;
+}
+
+.pricing article h4{
+    font-size: 14px;
+}
+
+.pricing article p{
+    margin-left: 10px;
 }
 
 .container .buttons{
@@ -157,6 +172,12 @@ button{
     }
 
     .container{
-        width: 500px;
+        width: 400px;
+        height: 650px;
     }
+
+    .container h1{
+        margin: 30px auto;
+    }
+
 }
