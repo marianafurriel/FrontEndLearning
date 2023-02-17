@@ -10,5 +10,5 @@ Os desafios iniciam com as imagens, as cores e alguns parâmetros básicos, alé
 
 ### Interactive Rating Component Main
 [live](https://marianafurriel.github.io/frontendmentor/Interactive%20Rating%20Component%20Main) • [código](https://github.com/marianafurriel/frontendmentor/tree/main/Interactive%20Rating%20Component%20Main)
-![screenshot](screenshots/desktop-ircm.png)
+![screenshot](screenshots/desktop-ircm.gif)
 
