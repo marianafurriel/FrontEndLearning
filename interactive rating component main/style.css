@@ -11,7 +11,7 @@
 
 body{
     background-color: #141519;
-    width: 1440px;
+    /* width: 1440px; */
     font-family: 'Overpass';
     font-size: 15px;
     margin: 0px;
@@ -23,7 +23,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 .main{
@@ -37,7 +37,6 @@ body{
     width: 350px;
     height: 350px;
     padding:30px;
-
     background-image: linear-gradient(to top, #171e27, #1a202a, #1d232c, #20252f, #232832);
     color: #848B95;
     /* height: 500px; */
@@ -118,4 +117,12 @@ body{
     padding: 10px 20px;
     color: #fb7413;
     background-color: #262F38;
+}
+
+.attribution{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(176, 170, 170);
 }
