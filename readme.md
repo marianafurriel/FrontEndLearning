@@ -9,5 +9,5 @@ Os desafios iniciam com as imagens, as cores e alguns parâmetros básicos, alé
 [live](https://marianafurriel.github.io/frontendmentor/Order%20summary%20component/) • [código](https://github.com/marianafurriel/frontendmentor/tree/main/Order%20summary%20component)
 
 ### Interactive Rating Component Main
-[live]() • [código](https://github.com/marianafurriel/frontendmentor/tree/main/interactive%20rating%20component%20main)
+[live](https://marianafurriel.github.io/frontendmentor/Interactive%20Rating%20Component%20Main) • [código](https://github.com/marianafurriel/frontendmentor/tree/main/Interactive%20Rating%20Component%20Main)
 
