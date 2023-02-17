@@ -92,6 +92,10 @@ body{
     background-color: #878D99;
     color: white;
 }
+.selected:hover{
+    background-color: #878D99;
+    color: white;
+}
 
 .enviar{
     background: #fb7413;;
