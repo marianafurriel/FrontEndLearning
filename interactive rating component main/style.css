@@ -84,6 +84,11 @@ body{
 }
 
 .number:hover{
+    background-color: #fb7413;
+    color: white;
+}
+
+.selected{
     background-color: #878D99;
     color: white;
 }
