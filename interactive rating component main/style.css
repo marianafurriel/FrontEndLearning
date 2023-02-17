@@ -42,6 +42,11 @@ body{
     color: #848B95;
     /* height: 500px; */
 }
+
+.center{
+    align-items: center;
+    text-align: center;
+}
 .titulo{
     color:#FBFFFF;
     font-size: 20px;
@@ -106,4 +111,11 @@ body{
 
 .hide{
     display:none;
+}
+
+.selection{
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #fb7413;
+    background-color: #262F38;
 }
