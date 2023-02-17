@@ -12,9 +12,3 @@ Os desafios iniciam com as imagens, as cores e alguns parâmetros básicos, alé
 ### Interactive Rating Component Main
 [live]() • [código](https://github.com/marianafurriel/frontendmentor/tree/main/interactive%20rating%20component%20main)
 
-
-
-|Desafio| Código | Live|
-|------ | ------ | ----|
-| [Order Summary<br>Component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)|[aqui](https://github.com/marianafurriel/frontendmentor/tree/master/Order%20summary%20component)| [aqui](https://marianafurriel.github.io/frontendmentor/Order%20summary%20component/)| [video](https://github.com/marianafurriel/frontendmentor/tree/master/Order%20summary%20component)
-
