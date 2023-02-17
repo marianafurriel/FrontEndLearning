@@ -129,6 +129,8 @@ body{
 
 .attribution{
     color: white;
+    position: absolute;
+    bottom: 0;
 }
 a{
     text-decoration: none;
