@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
 :root{
-    --orange: hsl(25, 97%, 53%);
+    --orange: #fb7413;
     --white: hsl(0, 0%, 100%);
     --lightgrey: hsl(217, 12%, 63%);
     --mediumgrey: hsl(216, 12%, 54%);
@@ -86,12 +86,22 @@ body{
 }
 
 .enviar{
-    background: var(--orange);
+    background: #fb7413;;
     padding: 10px;
     border-radius: 50px;
     color: white;
     font-weight: 400;
+    letter-spacing: 2px;
     text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: white;
+    color: #fb7413;
+    /* font-size: 18px;
+    letter-spacing: 1px; */
 }
 
 .hide{
