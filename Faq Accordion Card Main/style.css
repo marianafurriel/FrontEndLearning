@@ -15,15 +15,36 @@ body{
     background-image: linear-gradient(to top, #af67e9, #9f67e9, #8d66e9, #7a66e8, #6565e7);
     font-family: 'Kumbh Sans', sans-serif;
 }
-.container{
+.main{
+    background-color: white;
+    background-image: url('images/bg-pattern-desktop.svg');
+    background-size: 500px;
+    background-position: -100px -100px;
+    background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     margin: auto;
     margin-top: 100px;
-    width: 700px;
-    border: 3px solid black;
+    width: 900px;
+    overflow: hidden;
 }
+
+.imagens{
+    /* width: 400px;
+    height: 310px; */    
+}
+.woman{
+    margin-left: -70px;
+    height: 100%;
+}
+.caixa{
+    position: absolute;
+    top: 275px;
+    left: 90px;
+}
+
 .faq{
     padding: 10px;
     width: 400px;
@@ -32,10 +53,9 @@ body{
 
 .faq p{
     font-weight: 700;
-    text-align: center;
 }
 
-.faq>*{
+.faq>*{ /*coloc essas propriedades para todos os filhos da classe faq*/
     margin: 20px;
 }
 
@@ -51,7 +71,6 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    border: 3px solid blue;
 }
 
 .hide{
