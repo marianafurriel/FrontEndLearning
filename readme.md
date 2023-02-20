@@ -15,5 +15,5 @@ Os desafios iniciam com as imagens, as cores e alguns parâmetros básicos, alé
 
 ### FAQ Accordion Card Main
 [live](https://marianafurriel.github.io/frontendmentor/Faq%20Accordion%20Card%20Main) • [código](https://github.com/marianafurriel/frontendmentor/tree/main/Faq%20Accordion%20Card%20Main)
-![screenshot](screenshots/desktop-ircm.gif)
+![screenshot](screenshots/facm.gif)
 
