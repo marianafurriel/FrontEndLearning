@@ -65,6 +65,12 @@ body{
     margin-right: 0;
 }
 
+.rotate{
+    transform: rotate(180deg);
+}
+.bold{
+    font-weight: 700;
+}
 .question{
     display: flex;
     justify-content: space-between;
