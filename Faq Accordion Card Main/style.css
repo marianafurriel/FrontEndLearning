@@ -14,45 +14,45 @@ body{
     min-height: 100vh;
     background-image: linear-gradient(to top, #af67e9, #9f67e9, #8d66e9, #7a66e8, #6565e7);
     font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
 }
 .main{
     background-color: white;
     background-image: url('images/bg-pattern-desktop.svg');
-    background-size: 500px;
-    background-position: -100px -100px;
+    background-size: 700px;
+    background-position: -385px -130px;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 0px;
     width: 900px;
+    height: 500px;
     overflow: hidden;
+    border-radius: 20px;
 }
 
-.imagens{
-    /* width: 400px;
-    height: 310px; */    
-}
 .woman{
-    margin-left: -70px;
+    margin-left: -80px;
     height: 100%;
 }
 .caixa{
     position: absolute;
-    top: 275px;
-    left: 90px;
+    top: 300px;
+    left: 165px;
 }
 
 .faq{
     padding: 10px;
     width: 400px;
-    border: 3px solid red;
 }
 
 .faq p{
     font-weight: 700;
+    font-size: 25px;
 }
 
 .faq>*{ /*coloc essas propriedades para todos os filhos da classe faq*/
@@ -60,7 +60,6 @@ body{
 }
 
 .faq img{
-    /* border: 3px solid red; */
     height: 10px;
     cursor: pointer;
     margin-right: 0;
@@ -80,5 +79,14 @@ body{
 .line{
     color: hsl(240, 5%, 91%);
     border: 0;
-    border-top: 1px solid hsla(240, 4%, 91%, 0.574);
+    border-top: 1px solid hsla(240, 5%, 75%, 0.686);
+}
+
+.attribution{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.attribution a{
+    color: black;
 }
