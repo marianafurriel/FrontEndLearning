@@ -1,6 +1,6 @@
-# Frontend Mentor
+# Frontend Learning
 
-
+## Frontend Mentor
 Os desafios iniciam com as imagens, as cores e alguns parâmetros básicos, além das imagens dos designs. Todo o resto fica por nossa conta. Abaixo estão as minhas versões dos desafios.
 
 * [Order Summary Component](#Order-Summary-Component)
