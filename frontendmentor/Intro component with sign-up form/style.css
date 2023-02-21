@@ -82,7 +82,11 @@ input{
     border-radius: 5px;
     margin-bottom: 30px;
     padding: 10px;
+    padding-left: 25px;
+    border: 1px solid hsl(246, 25%, 77%);
+    font-weight:600;
 }
+
 
 input[type=submit]{
     margin-bottom: 7px;
@@ -90,7 +94,8 @@ input[type=submit]{
     border: none;
     color: white;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 700;
+    padding: 0;
 }
 
 .terms{
