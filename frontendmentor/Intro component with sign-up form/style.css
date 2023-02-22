@@ -98,6 +98,7 @@ input[type=submit]{
     font-weight: 700;
     padding: 0;
     background-image: none;
+    cursor: pointer;
 }
 
 .thankyou{
@@ -131,3 +132,11 @@ footer{
     bottom: 0;
 }
 
+.attribution{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 100px;
+}
+.attribution a{
+    color: black;
+}
