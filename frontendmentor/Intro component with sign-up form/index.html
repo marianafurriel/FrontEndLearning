@@ -21,22 +21,23 @@
     </div>
     <div class="right">
       <p class="free-trial"> Try it free 7 days then $20/mo. thereafter</p>
-      <form action="" class="formulario">
-        <input type="text" name="first-name" id="" placeholder="First name"><br>
+      <div class="formulario">
+        <p class="thankyou hide">Thank you for your subscription.</p>
+        <input type="text" name="first-name" class="input name" placeholder="First name"><br>
         <p class="error error-name hide">First name cannot be empty</p>
 
-        <input type="text" name="last-name" id="" placeholder="Last name"><br>
-        <p class="error error-name hide">Last name cannot be empty</p>
+        <input type="text" name="last-name" class="input lname" placeholder="Last name"><br>
+        <p class="error error-lname hide">Last name cannot be empty</p>
         
-        <input type="email" name="email" id="" placeholder="Email Address"><br>
-        <p class="error error-name hide">Email cannot be empty</p>
+        <input type="email" name="email" class="input email" placeholder="Email Address"><br>
+        <p class="error error-email hide">Email cannot be empty</p>
         
-        <input type="password" name="password" id="" placeholder="Password"><br>
-        <p class="error error-name hide">Password cannot be empty</p>
+        <input type="password" name="password" class="input pass" placeholder="Password"><br>
+        <p class="error error-pass hide">Password cannot be empty</p>
 
-        <input type="submit" value="CLAIM YOUR FREE TRIAL" id="submit"><br>
+        <input type="submit" value="CLAIM YOUR FREE TRIAL" class="submit"><br>
         By clicking the button, you are agreeing to our <span class="terms"> Terms and Services</span>
-      </form>
+      </div>
 
     </div>
   </main>
@@ -46,6 +47,7 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
