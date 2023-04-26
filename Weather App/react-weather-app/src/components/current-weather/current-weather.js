@@ -37,7 +37,6 @@ const CurrentWeather = () => {
                         <span className="parameter-label">Pressure</span>
                         <span className="parameter-value">15hPa</span>
                     </div>
-
                 </div>
             </div>
         </div>
