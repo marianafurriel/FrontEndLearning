@@ -4,7 +4,7 @@ import CurrentWeather from './components/current-weather/current-weather'
 import { WEATHER_API_URL, WHEATHER_API_KEY } from './api';
 
 function App() {
-//teste
+
   const handleOnSearchChange= (searchData) => {
     const [lat,lon] = searchData.value.split(" ");
 
