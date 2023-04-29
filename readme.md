@@ -1,10 +1,12 @@
 # Frontend Learning
 
+* [Frontend Mentor](#Frontend-Mentor)
+* [Previsão do tempo com React](#Interactive-Rating-Component-Main)
 ## Frontend Mentor
 Os desafios iniciam com as imagens, as cores e alguns parâmetros básicos, além das imagens dos designs. Todo o resto fica por nossa conta. Abaixo estão as minhas versões dos desafios.
 
 * [Order Summary Component](#Order-Summary-Component)
-* [Interactive Rating Component Main](#Interactive-Rating-Component-Main)
+* [Interactive Rating Component Main](#Previsão-do-tempo-com-React)
 ### Order Summary Component
 Um elemento de resumo de pedido, feito com HTML e CSS. Você pode ver o projeto rodando [aqui](https://marianafurriel.github.io/frontendmentor/Order%20summary%20component/).
 <details>
@@ -18,7 +20,6 @@ Um componente de avaliação, feito com HTML, CSS e Javascript vanilla. Projeto 
   <summary>Ver captura de tela</summary>
   <img src="screenshots/desktop-ircm.gif"/>
 </details>
-<br>
 
 ### FAQ Accordion Card Main
 Um componente de perguntas comuns, usando um acordeão. Feito em HTML, CSS e Javascript vanilla.Você pode ver o projeto rodando [aqui](https://marianafurriel.github.io/frontendmentor/Faq%20Accordion%20Card%20Main)
@@ -26,4 +27,6 @@ Um componente de perguntas comuns, usando um acordeão. Feito em HTML, CSS e Jav
   <summary>Ver captura de tela</summary>
   <img src="screenshots/facm.gif"/>
 </details>
+
+### Previsão do tempo com React
 
