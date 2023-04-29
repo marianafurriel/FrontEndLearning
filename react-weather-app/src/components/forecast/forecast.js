@@ -4,7 +4,7 @@ const WEEK_DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Satu
 const Forecast = ({ data }) => {
   const dayInAWeek = new Date().getDay();
   const forecastDays = WEEK_DAYS.slice(dayInAWeek, WEEK_DAYS.length).concat(WEEK_DAYS.slice(0, dayInAWeek)); // adiciona os dias da semana que passaram ao final da lista, para termos 7 dias a partir do dia de hoje
-
+console.log(data);
   return (
     <>
       <label className="title">Daily</label>
@@ -17,8 +17,9 @@ const Forecast = ({ data }) => {
                   <img alt="weather" className="icon-small" src={`icons/${item.weather[0].icon}.png`} />
                   <label className="day">{forecastDays[idx]}</label>
                   <label className="description">{item.weather[0].description}</label>
-                  <
-                                </div>
+                  <label className="min-max">{Math.round(item.main.temp_min)}°C/{Math.round(item.main.temp_max)}°C</label>
+
+                </div>
               </AccordionItemButton>
             </AccordionItemHeading> {/* o que vai aparecer quando o acordeão estiver fechado */}
             <AccordionItemPanel></AccordionItemPanel>
