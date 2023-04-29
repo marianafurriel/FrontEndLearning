@@ -23,7 +23,7 @@ const Forecast = ({ data }) => {
                   <label className="min-max">{Math.round(item.main.temp_min)}°C/{Math.round(item.main.temp_max)}°C</label>
                 </div>
               </AccordionItemButton>
-            </AccordionItemHeading> {/* o que vai aparecer quando o acordeão estiver fechado */}
+            </AccordionItemHeading> {/* o que aparece quando o acordeão estiver fechado */}
             <AccordionItemPanel>
               <div className="daily-details-grid">
                 <div className="daily-details-grid-item">
