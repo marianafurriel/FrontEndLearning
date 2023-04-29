@@ -6,11 +6,11 @@ Os desafios iniciam com as imagens, as cores e alguns parâmetros básicos, alé
 * [Order Summary Component](#Order-Summary-Component)
 * [Interactive Rating Component Main](#Interactive-Rating-Component-Main)
 ### Order Summary Component
-[live](https://marianafurriel.github.io/frontendmentor/Order%20summary%20component/) • [código](https://github.com/marianafurriel/frontendmentor/tree/main/Order%20summary%20component)
-![screenshot](screenshots/os.png)
+Um elemento de resumo de pedido, feito com HTML e CSS. Você pode ver o projeto rodando [aqui](https://marianafurriel.github.io/frontendmentor/Order%20summary%20component/).
+![screenshot](screenshots/os2.png)
 
 ### Interactive Rating Component Main
-[live](https://marianafurriel.github.io/frontendmentor/Interactive%20Rating%20Component%20Main) • [código](https://github.com/marianafurriel/frontendmentor/tree/main/Interactive%20Rating%20Component%20Main)
+Um componente de avaliação, feito com HTML, CSS e Javascript vanilla. Projeto rodando [aqui](https://marianafurriel.github.io/frontendmentor/Interactive%20Rating%20Component%20Main) • [código](https://github.com/marianafurriel/frontendmentor/tree/main/Interactive%20Rating%20Component%20Main)
 ![screenshot](screenshots/desktop-ircm.gif)
 
 ### FAQ Accordion Card Main
