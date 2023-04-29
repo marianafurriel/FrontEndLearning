@@ -9,7 +9,6 @@ const Search = ({ onSearchChange }) => {
     const handleOnChange = (searchData) => {
         setSearch(searchData);
         onSearchChange(searchData);
-
     } 
 
     const loadOptions = (inputValue) => {
