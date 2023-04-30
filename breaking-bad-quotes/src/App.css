@@ -1,8 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-height: 100vh;
+  background: #664b92;
+}
+
 .container {
+  min-height: 100vh;
   display: flex;
-    align-items: center;
   justify-content: center;
-  height: 100vh;
-  border: 3px solid red;
-  color: black;
+  align-items: center;
+  text-align: center;
+}
+
+.quote {
+  margin: auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;  */
+  width: 100%;
+  max-width: 400px;
+  min-height: 180px;
+  padding: 30px;
+  background-color: #333;
+  border-radius: 4px;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+p {
+  color: #fff;
+  font-size: 17px;
+  word-wrap: break-word;
+}
+
+p:last-of-type{
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.btn {
+  border: 3px solid black;
 }

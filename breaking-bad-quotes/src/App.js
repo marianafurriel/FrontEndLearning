@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Quote from './components/quote/quote';
-
+import NewQuote from './components/newQuote/newQuote'
 function App() {
   const [quote, setQuote] = useState(null);
   const [author, setAuthor] = useState(null);
@@ -15,16 +15,17 @@ function App() {
       })
       .catch(error => console.error(error));
   }
+
   useEffect(() => {
     getQuote();
   }, [])
-  console.log(quote,author)
   return (
     <div className='container'>
-      <p>{quote}</p>
-      {/* <Quote data={[quote,author]}/> */}
-      <button onClick={getQuote}>Another quote</button>
-
+      <div className='quote'>
+      {/* <p>{quote}</p> */}
+      <Quote data={[quote, author]} />
+      <button className='btn' onClick={getQuote}>Another quote</button>
+    </div>
     </div>
   );
 }
