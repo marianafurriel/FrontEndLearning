@@ -26,6 +26,9 @@ function App() {
         setForecast({city: searchData.label,...forecastResponse});
       })
       .catch((err)=> console.log(err))
+      
+      console.log(currentWeather)
+      console.log(forecast)
 }
   // console.log("wheater: ",currentWeather);
   // console.log(forecast);
