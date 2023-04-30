@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import { useState, useEffect } from 'react';
 import Quote from './components/quote/quote';
-import NewQuote from './components/newQuote/newQuote'
 function App() {
   const [quote, setQuote] = useState(null);
   const [author, setAuthor] = useState(null);
