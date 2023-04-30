@@ -5,38 +5,39 @@
 }
 
 .App {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background: #664b92;
 }
 
 .container {
+  background: #664b92;
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   text-align: center;
 }
 
 .quote {
-  margin: auto;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center; 
-  text-align: center;  */
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
   width: 100%;
-  max-width: 400px;
-  min-height: 180px;
-  padding: 30px;
+  max-width: 500px;
+  min-height: 300px;
+  padding: 15px;
   background-color: #333;
   border-radius: 4px;
   box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
-  color: white;
+  color: #fff;
 }
 
 p {
   color: #fff;
-  font-size: 17px;
+  font-size: 20px;
   word-wrap: break-word;
 }
 
@@ -46,5 +47,17 @@ p:last-of-type{
 }
 
 .btn {
-  border: 3px solid black;
+  margin-top:30px;
+  font-size: 17px;
+  padding: 10px;
+  background: #494ca2;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+.btn:hover{
+  letter-spacing: 0.4px;
+  border-radius: 40px;  
 }
