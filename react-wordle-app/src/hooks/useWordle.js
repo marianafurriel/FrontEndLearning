@@ -24,7 +24,7 @@ const useWordle = (solution) => {
 
     //achar letras amarelas
     formattedGuess.forEach((letter,i) => {
-      if(solutionArray.includes(letter.key) && letter.color!="green"){
+      if(solutionArray.includes(letter.key) && letter.color!=="green"){
         formattedGuess[i].color = "yellow";
         solutionArray[solutionArray.indexOf(letter.key)] = null;
       }
