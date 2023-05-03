@@ -9,8 +9,28 @@ const useWordle = (solution) => {
   const [isCorrect, setIsCorrect] = useState(false)
 
   const formatGuess = () => {
-  console.log("formatting the guess: ",currentGuess)
-   }
+    let solutionArray = [...solution]
+    let formattedGuess = [...currentGuess ].map((letter) => {
+      return{key:letter,color:"grey"} //default é cinza
+    });
+
+    //achar letras verdes
+    formattedGuess.forEach((letter,i) => {
+      if(solutionArray[i]===letter.key){
+        formattedGuess[i].color = "green";
+        solutionArray[i]=null;
+      }
+    })
+
+    //achar letras amarelas
+    formattedGuess.forEach((letter,i) => {
+      if(solutionArray.includes(letter.key) && letter.color!="green"){
+        formattedGuess[i].color = "yellow";
+        solutionArray[solutionArray.indexOf(letter.key)] = null;
+      }
+    })
+    return formattedGuess;
+  }
 
   const addNewGuess = () => { }
 
@@ -27,8 +47,9 @@ const useWordle = (solution) => {
       if (currentGuess.length !== 5) {
         console.log("your word must be 5 chars long")
       }
-      
-      formatGuess()
+
+      const formatted = formatGuess();
+      console.log(formatted)
     }
 
     if (key === 'Backspace') {
