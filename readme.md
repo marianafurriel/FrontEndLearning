@@ -46,10 +46,10 @@ Um gerador de frases feito com React, que pega dados de uma API e mostra na tela
 
 ### Gerador de citações de Breaking Bad
 Um gerador de citações da sério Breaking Bad feito com React, que pega dados de uma API e mostra na tela. Baseado no projeto anterios. Consome dados [dessa](https://breakingbadquotes.xyz/) API. Projeto rodando [aqui](https://breakingbadquotesmf.netlify.app/).
-<details>
+<!-- <details>
   <summary>Ver captura de tela</summary>
   <img src="screenshots/rqg.png"/>
-</details>
+</details> -->
 
 ### Wordle Clone
 Um clone do jogo [Wordle](https://www.nytimes.com/games/wordle/index.html) feito em React junto com [esse](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gXdVXVJBmHpSI7zCEcjLUX) tutorial. Adaptei para pegar dados [dessa](https://rapidapi.com/sheharyar566/api/random-words5/?utm_source=ANIA-KUBOW&utm_medium=DevRel&utm_campaign=DevRel) API. Você pode jogar [aqui](https://wordlemf.netlify.app/).
