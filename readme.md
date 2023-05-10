@@ -36,3 +36,24 @@ Você pode ver o projeto funcionando [aqui](https://weathermf.netlify.app/)
   <summary>Ver captura de tela</summary>
   <img src="screenshots/rwa.png"/>
 </details>
+
+### Gerador de citações
+Um gerador de frases feito com React, que pega dados de uma API e mostra na tela. Feito junto com [esse](https://www.youtube.com/watch?v=OpXpwY9Gbzg) tutorial, consome dados [dessa](https://type.fit/api/quotes) API. Projeto rodando [aqui](https://randomquotesmf.netlify.app/).
+<details>
+  <summary>Ver captura de tela</summary>
+  <img src="screenshots/rqg.png"/>
+</details>
+
+### Gerador de citações de Breaking Bad
+Um gerador de citações da sério Breaking Bad feito com React, que pega dados de uma API e mostra na tela. Baseado no projeto anterios. Consome dados [dessa](https://breakingbadquotes.xyz/) API. Projeto rodando [aqui](https://breakingbadquotesmf.netlify.app/).
+<details>
+  <summary>Ver captura de tela</summary>
+  <img src="screenshots/rqg.png"/>
+</details>
+
+### Wordle Clone
+Um clone do jogo [Wordle](https://www.nytimes.com/games/wordle/index.html) feito em React junto com [esse](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gXdVXVJBmHpSI7zCEcjLUX) tutorial. Adaptei para pegar dados [dessa](https://rapidapi.com/sheharyar566/api/random-words5/?utm_source=ANIA-KUBOW&utm_medium=DevRel&utm_campaign=DevRel) API. Você pode jogar [aqui](https://wordlemf.netlify.app/).
+<details>
+  <summary>Ver captura de tela</summary>
+  <img src="screenshots/rwoa.png"/>
+</details>
