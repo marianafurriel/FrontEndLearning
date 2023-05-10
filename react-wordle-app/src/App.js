@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import Wordle from './components/wordle';
+import Wordle from './components/Wordle';
 import { ranWordsOptions } from './api';
 
 function App() {
