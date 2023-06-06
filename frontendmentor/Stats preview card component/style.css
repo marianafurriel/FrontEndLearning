@@ -4,6 +4,9 @@
   --very-dark-blue: hsl(233, 47%, 7%);
   --dark-desaturated-blue: hsl(244, 38%, 16%);
   ---soft-violet: hsl(277, 64%, 61%);
+  --white:hsl(0, 0%, 100%);
+  --slightly-transparent-white-main: hsla(0, 0%, 100%, 0.75);
+  --slightly-transparent-white-stat: hsla(0, 0%, 100%, 0.6)
 }
 
 * {
@@ -13,7 +16,10 @@
 }
 
 body{
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  margin: auto;
+  width: 1440px;
+  font-size: 15px;
   border: 3px solid red;
   background-color: var(--very-dark-blue);
 }
@@ -28,4 +34,21 @@ img {
 
 main{
   background-color: var(--dark-desaturated-blue);
+  color: var(--white);
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.left .texto p{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
 }
