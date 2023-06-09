@@ -41,8 +41,7 @@ img {
 main{
   margin: auto;
   padding: 0;
-  height: 400px;
-  width: 1000px;
+  width: 950px;
   background-color: var(--dark-desaturated-blue);
   color: var(--white);
   display: flex;
@@ -52,27 +51,33 @@ main{
 }
 
 .left{
-  margin-right: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  width: 350px;
-  margin-left: 150px;
+  margin-left: 50px;
 }
 
 .left .texto p{
+  margin-right: 50px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 
 }
 
 .left .texto p span{
   color: var(---soft-violet);
 }
+
+.subtexto{
+  display: inline-block;
+  width:300px;
+}
+
 .left .stats{
   margin-top: 50px;
+
   color: var(--slightly-transparent-white-stat);
 }
