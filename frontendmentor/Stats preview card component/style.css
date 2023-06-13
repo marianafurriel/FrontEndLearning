@@ -26,11 +26,6 @@ body{
   justify-content: center;
 }
 
-img {
-  height: 400px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
 
 main{
   margin: auto;
@@ -96,4 +91,21 @@ main{
 
 .stats p:first-child{
   margin-left: 0px;
+}
+
+.right {
+  background-image: url('images/image-header-desktop.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 446px;
+  width: 540px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.overlay{
+  background-color: hsla(277, 57%, 40%, 0.568);;
+  height: 446px;
+  width: 540px;
 }
