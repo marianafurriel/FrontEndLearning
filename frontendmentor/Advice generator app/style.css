@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 :root{
   --light-cyan: hsl(193, 38%, 86%);
   --neon-green: hsl(150, 100%, 66%);
@@ -15,22 +16,45 @@
 
 body{
   font-family: 'Manrope',sans-serif;
-  font-size: 2.8rem;
   margin: auto;
-  width: 1440px;
-  /* display: flex;
-  justify-content: center; */
+  width: 144rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   border: 3px solid red;
   background-color: var(--dark-blue);
 }
 
 main{
+  color: var(--light-cyan);
+  font-size: 1.5rem;
   background-color: var(--dark-grayish-blue);
-  width: 300px;
+  width: 50rem ;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 2.5rem;
 }
 
+img{
+ width: 85%;
+}
+.adId{
+  text-transform: uppercase;
+  color: var(--neon-green);
+  letter-spacing: .3rem;
+  font-size: 1.2rem;
+}
 
+.advice{
+font-size: 2.8rem;
+}
 
 .attribution {
   font-size: 11px;
