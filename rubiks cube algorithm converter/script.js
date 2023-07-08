@@ -38,8 +38,16 @@ function atualizaResultado(alg){
 function inverte(){
   let alg = document.querySelector("#entrada").value;
   alg = alg.toUpperCase();
+  alg = alg.trim().split(" ");
+  console.log(alg[0])
+  if(alg[0[1]]=='\''){
+    alg[0[1]] = '';
+  }
+  else{
+    alg[0[1]] = '\'';
+  }
+  
+  
   atualizaResultado(alg)
-  
-  
 }
 
