@@ -19,18 +19,17 @@ body{
   font-family: 'Manrope',sans-serif;
   margin: auto;
   width: 144rem;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: var(--dark-blue);
 }
 
 main{
   position: relative;
   color: var(--light-cyan);
-  font-size: 1.5rem;
   background-color: var(--dark-grayish-blue);
   height: 35rem;
   width: 54rem;
@@ -87,4 +86,36 @@ footer{
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 376px){
+  body{
+    width: 35rem;
+    height: 95vh;
+  }
+  main{
+  height: 30rem;
+  width: 30rem;
+  padding: 2rem 4rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  }
+  .advice{
+    font-size: 2rem;
+  }
+  .adId{
+    letter-spacing: .5rem;
+    font-size: 1rem;
+  }
+  .divider{
+    width: 28rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
