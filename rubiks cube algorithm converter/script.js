@@ -43,7 +43,19 @@ const inverter = {
   B: "B'",
   "B'": "B",
   F: "F'",
-  "F'": "F"
+  "F'": "F",
+  Rw: "Rw'",
+  "Rw'": "Rw",
+  Lw: "Lw",
+  "Lw'": "Lw",
+  Uw: "Uw'",
+  "Uw'": "Uw",
+  Dw: "Dw'",
+  "Dw'": "Dw",
+  Bw: "Bw'",
+  "Bw'": "Bw",
+  Fw: "Fw'",
+  "Fw'": "Fw"
 };
 
 const botaoInv = document.querySelector(".botaoInv");
