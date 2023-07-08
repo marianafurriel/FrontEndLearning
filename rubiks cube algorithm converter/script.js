@@ -16,7 +16,20 @@ const converterZ = {
   L:"D'",
   D:"R"};
 
-const inverter = {};
+const inverter = {
+  R:"R'",
+  "R'":"R",
+  L: "L",
+  "L'":"L",
+  U:"U'",
+  "U'":"U",
+  D:"D'",
+  "D'":"D",
+  B:"B'",
+  "B'":"B",
+  F: "F'",
+  "F'":"F"
+};
 
 const botaoInv = document.querySelector(".botaoInv");
 const botaoX = document.querySelector(".botaoX");
@@ -40,14 +53,11 @@ function inverte(){
   alg = alg.toUpperCase();
   alg = alg.trim().split(" ");
   console.log(alg[0])
-  if(alg[0[1]]=='\''){
-    alg[0[1]] = '';
-  }
-  else{
-    alg[0[1]] = '\'';
+  for(let i = 0; i<alg.length;i++){
+    alg[i] = inverter[alg[i]];
   }
   
   
-  atualizaResultado(alg)
+  atualizaResultado(alg.join(" "));
 }
 
