@@ -1,34 +1,34 @@
 const converterX = {
   U: "F",
-  "U'":"F'",
+  "U'": "F'",
   B: "U",
-  "B'":"U'",
+  "B'": "U'",
   D: "B",
-  "D'":"B'",
+  "D'": "B'",
   F: "D",
-  "F'":"D'"
+  "F'": "D'"
 };
 
 const converterY = {
   B: "L'",
-  "B'":"L",
+  "B'": "L",
   R: "B",
-  "R'":"B'",
+  "R'": "B'",
   F: "R",
-  "F'":"R'",
+  "F'": "R'",
   L: "F'",
-  "L'":"F"
+  "L'": "F"
 };
 
 const converterZ = {
   R: "U",
-  "R'":"U'",
+  "R'": "U'",
   U: "L'",
-  "U'":"L",
+  "U'": "L",
   L: "D'",
-  "L'":"D",
+  "L'": "D",
   D: "R",
-  "D'":"R'"
+  "D'": "R'"
 };
 
 const inverter = {
@@ -83,7 +83,9 @@ function atualizaResultado(alg) {
 function inverte() {
   const alg = pegaAlg();
   for (let i = 0; i < alg.length; i++) {
-    alg[i] = inverter[alg[i]];
+    if (alg[i] in inverter) {
+      alg[i] = inverter[alg[i]];
+    }
   }
   atualizaResultado(alg.join(" "));
 }
