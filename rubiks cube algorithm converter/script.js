@@ -1,34 +1,46 @@
 const converterX = {
   U: "F",
   "U'": "F'",
+  U2:"F2",
   B: "U",
   "B'": "U'",
+  B2:"U2",
   D: "B",
   "D'": "B'",
+  D2:"B2",
   F: "D",
-  "F'": "D'"
+  "F'": "D'",
+  F2:"D2"
 };
 
 const converterY = {
   B: "L'",
   "B'": "L",
+  B2:"L2",
   R: "B",
   "R'": "B'",
+  R2:"B2",
   F: "R",
   "F'": "R'",
+  F2:"R",
   L: "F'",
-  "L'": "F"
+  "L'": "F",
+  L2:"F2"
 };
 
 const converterZ = {
   R: "U",
   "R'": "U'",
+  R2:"U2",
   U: "L'",
   "U'": "L",
+  U2:"L2",
   L: "D'",
   "L'": "D",
+  L2:"D2",
   D: "R",
-  "D'": "R'"
+  "D'": "R'",
+  D2:"R2"
 };
 
 const inverter = {
@@ -44,18 +56,18 @@ const inverter = {
   "B'": "B",
   F: "F'",
   "F'": "F",
-  Rw: "Rw'",
-  "Rw'": "Rw",
-  Lw: "Lw",
-  "Lw'": "Lw",
-  Uw: "Uw'",
-  "Uw'": "Uw",
-  Dw: "Dw'",
-  "Dw'": "Dw",
-  Bw: "Bw'",
-  "Bw'": "Bw",
-  Fw: "Fw'",
-  "Fw'": "Fw"
+  RW: "Rw'",
+  "RW'": "Rw",
+  LW: "Lw",
+  "LW'": "Lw",
+  UW: "Uw'",
+  "UW'": "Uw",
+  DW: "Dw'",
+  "DW'": "Dw",
+  BW: "Bw'",
+  "BW'": "Bw",
+  FW: "Fw'",
+  "FW'": "Fw"
 };
 
 const botaoInv = document.querySelector(".botaoInv");
@@ -86,8 +98,9 @@ function inverte() {
     if (alg[i] in inverter) {
       alg[i] = inverter[alg[i]];
     }
+    console.log(alg[i])
   }
-  atualizaResultado(alg.join(" "));
+  atualizaResultado(alg.reverse().join(" "));
 }
 
 function converteX() {

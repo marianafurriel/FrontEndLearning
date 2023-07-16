@@ -1,3 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+a{
+  text-decoration: underline;
+  color: inherit;
+  transition: 0.3s ease-in-out all;
+}
+
+a:hover{
+  letter-spacing: 0.1rem;
+  transition: 0.3s ease-in-out all;
+}
+
+body{
+  color: #151515;
+  background-image: linear-gradient(
+  40deg,
+  hsl(293deg 29% 65%) 0%,
+  hsl(343deg 63% 65%) 50%,
+  hsl(16deg 67% 55%) 100%
+);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  padding: 3rem;
+  height: 50rem;
+  width: 40rem;
+  background-color: #a9d9d029;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.entradas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.entradas>label{
+  font-size: 2rem;
+}
+
+#entrada{
+  width: 25rem;
+  height: 2rem;
+}
+
+button{
+  width: 11.5rem;
+  cursor: pointer;
+}
+
+.botoes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
 .resultado{
-  visibility: hidden;
+  font-size: 2rem;
+  /* visibility: hidden; */
+}
+
+button{
+  background-image: linear-gradient(
+  45deg,
+  hsl(282deg 32% 49%) 0%,
+  hsl(279deg 35% 41%) 50%,
+  hsl(276deg 39% 32%) 100%
+);
+border: none;
+padding: 0.5rem;
+}
+
+.explicacao{
+  width: 30rem;
+  font-size: 1.7rem;
+}
+.explicacao p{
+  margin-top: 1rem;
 }
